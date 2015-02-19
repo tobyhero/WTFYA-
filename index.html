@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>WTFYA?</title>
+  	 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="mattmap.css">
+ 	
+  </head>
+  <body>
+  <div id="panel">
+	  <h3>my people if you wit me...</h3>
+	  <h1>WHERE THE F*CK YOU AT?</h1>
+	  <hr>
+	  <p>ENTER AN ADDRESS OR POSTCODE TO SEE THE GOOGLE STREET VIEW: </p>
+	  <div class="diobox">
+	  		
+			<input id="addin" type=”text” name="search" value="enter address here" onfocus="if(this.value == 'enter address here'){this.value ='';this.style.color='#000'}" />
+			<input id="button" type="submit" value="show me!"/>
+			</form>
+	  	</div>
+	  	</div>
+	<div id="map-canvas"></div>
+	 	
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRdsxdrqd3tVckD4KBss3cLLFIwnQ4l10">
+	</script>
+    <script src="mattmap.js"></script>
+  </body>
+</html>
